@@ -66,8 +66,6 @@ worksheet = writer.sheets['Table']
 workbook = writer.book
 format1 = workbook.add_format()
 format1.set_align('center')
-format2 = workbook.add_format()
-format2.set_border()
 
 worksheet.set_column('A:D', 10, format1)
 
